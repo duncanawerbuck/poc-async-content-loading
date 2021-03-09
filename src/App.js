@@ -7,17 +7,17 @@ export default function App() {
   const [route, setRoute] = useState("/");
 
   const ariaAttributes = {
-    "aria-atomic": "true",
-    "aria-busy": "false",
-    "aria-live": "polite"
+    // "aria-atomic": "true",
+    // "aria-busy": "false",
+    // "aria-live": "polite"
   };
 
-  if (loading) {
-    ariaAttributes["aria-busy"] = "true";
-  }
-  if (hasAnnounced) {
-    delete ariaAttributes["aria-live"];
-  }
+  // if (loading) {
+  //   ariaAttributes["aria-busy"] = "true";
+  // }
+  // if (hasAnnounced) {
+  //   delete ariaAttributes["aria-live"];
+  // }
 
   useEffect(() => {
     let id;
